@@ -20,7 +20,7 @@ print "df=\n",df
 print "--------------"
 for i in range(0,window):
     print i
-    colName='prev_cate_'+str(i)
+    colName='prev_cate_'+str(window-i)
     print colName
     df[colName]=''
 
